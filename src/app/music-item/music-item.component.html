@@ -1,0 +1,29 @@
+<div role="button" data-bs-toggle="modal" [attr.data-bs-target]="'#' + modalId" click>
+    <img [src]="music.thumbnailUrl" class="card-img-top">
+    <div class="card-body">
+        <h5 class="card-title">{{music.title}}</h5>
+    </div>
+</div>
+<div class="modal fade" tabindex="-1" [id]="modalId">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="clearfix">
+                    <img [src]="music.thumbnailUrl" class="col-12 col-md-6 float-md-start mb-3 ms-md-3 me-md-3">
+                    <h5 class="modal-title">{{music.title}}</h5>
+                    <p>{{music.description}}</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                @for (provider of music.providers; track $index) {
+                    <a [href]="provider.url" target="_blank">
+                        <img [src]="provider.thumbnailUrl" width="32">
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>

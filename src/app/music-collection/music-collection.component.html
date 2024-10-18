@@ -1,0 +1,7 @@
+@for (rowIndex of range(getRowsNumber()); track $index;) {
+    <div class="card-group my-3">
+        @for (music of getRowItems(rowIndex); track $index; let colIndex = $index) {
+            <app-music-item [music]="music" [index]="rowIndex * colIndex"></app-music-item>
+        }
+    </div>
+}
