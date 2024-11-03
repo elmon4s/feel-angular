@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Example title1",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolore nemo asperiores aspernatur, assumenda nesciunt quidem incidunt quibusdam illum quaerat ex, a animi ipsa voluptas impedit iusto nihil quos labore?",
+        "videoSrc": "https://www.youtube.com/embed/MK8Vj8wdPFc?si=yEBdQT1UDjm30PUQ"
+    },
+    {
+        "title": "Example title2",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolore nemo asperiores aspernatur, assumenda nesciunt quidem incidunt quibusdam illum quaerat ex, a animi ipsa voluptas impedit iusto nihil quos labore?",
+        "videoSrc": "https://www.youtube.com/embed/MK8Vj8wdPFc?si=yEBdQT1UDjm30PUQ"
+    },
+    {
+        "title": "Example title3",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolore nemo asperiores aspernatur, assumenda nesciunt quidem incidunt quibusdam illum quaerat ex, a animi ipsa voluptas impedit iusto nihil quos labore?",
+        "videoSrc": "https://www.youtube.com/embed/MK8Vj8wdPFc?si=yEBdQT1UDjm30PUQ"
+    },
+    {
+        "title": "Example title4",
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dolore nemo asperiores aspernatur, assumenda nesciunt quidem incidunt quibusdam illum quaerat ex, a animi ipsa voluptas impedit iusto nihil quos labore?",
+        "videoSrc": "https://www.youtube.com/embed/MK8Vj8wdPFc?si=yEBdQT1UDjm30PUQ"
+    }
+]
